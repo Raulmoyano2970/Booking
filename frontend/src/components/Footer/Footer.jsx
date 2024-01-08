@@ -44,18 +44,18 @@ const Footer = () => {
                <Col lg='3'>
                   <div className="logo">
                      <img src={logo} alt="" />
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, enim.</p>
+                     <p>Siguenos tambien en <br/> nuestras redes sociales! </p>
                      <div className="social__link d-flex align-items-center gap-4">
                         <span>
                            <Link to='#'>
                               <i class='ri-youtube-line'></i>
                            </Link>
                         </span>
-                        <span>
+                        {/* <span>
                            <Link to='#'>
                               <i class='ri-github-fill'></i>
                            </Link>
-                        </span>
+                        </span> */}
                         <span>
                            <Link to='#'>
                               <i class='ri-facebook-circle-line'></i>
@@ -71,7 +71,7 @@ const Footer = () => {
                </Col>
 
                <Col lg='3'>
-                  <h5 className="footer__link-title">Discover</h5>
+                  <h5 className="footer__link-title">Nosotros</h5>
 
                   <ListGroup className='footer__quick-links'>
                      {
@@ -84,7 +84,7 @@ const Footer = () => {
                   </ListGroup>
                </Col>
                <Col lg='3'>
-                  <h5 className="footer__link-title">Quick Links</h5>
+                  <h5 className="footer__link-title">Links</h5>
 
                   <ListGroup className='footer__quick-links'>
                      {
@@ -97,7 +97,7 @@ const Footer = () => {
                   </ListGroup>
                </Col>
                <Col lg='3'>
-                  <h5 className="footer__link-title">Contact</h5>
+                  <h5 className="footer__link-title">Contacto</h5>
 
                   <ListGroup className='footer__quick-links'>
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>

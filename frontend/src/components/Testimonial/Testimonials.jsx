@@ -36,64 +36,54 @@ const Testimonials = () => {
 
    return <Slider {...settings}>
       <div className="testimonial py-4 px-3">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipt earum debitits recusandae voluptate illum expedita 
-            corrupti aliquid doloribus delectus?
+         <p>
+         El hotel está increíble. La atención de José del turismo fue impecable. Y ya coordinamos con el otra salida.muchas gracias!!!
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava01} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>John Doe</h6>
+               <h6 className='mb-0 mt-3'>Juan Carlos G</h6>
                <p>Customer</p>
             </div>
          </div> 
       </div>
 
       <div className="testimonial py-4 px-3">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipt earum debitits recusandae voluptate illum expedita 
-            corrupti aliquid doloribus delectus?
+         <p>Ha sido una experiencia hermosa! Rocío y Noelia nos asesorarán super bien en nuestro viaje a Miami y Orlando. Todos los vuelos y hotelería espectacular. Lo que más agradezco es la predisposición y seguimiento que nos hicieron en caso que algo no saliera como lo previsto. Muchas gracias Tokio Viajes, muy recomendables!!
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava02} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>Lia Franklin</h6>
+               <h6 className='mb-0 mt-3'>msofiatovar</h6>
+               <p>cliente</p>
+            </div>
+         </div> 
+      </div>
+
+      <div className="testimonial py-4 px-3">
+         <p>Passeio muito agradável. Agência cumpriu horários combinados. Guia muito atencioso e simpático. Almoço muito bom. Recomendo
+         </p>
+
+         <div className='d-flex align-items-center gap-4 mt-3'>
+            <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
+            <div>
+               <h6 className='mb-0 mt-3'>Celso Edgar S</h6>
                <p>Customer</p>
             </div>
          </div> 
       </div>
 
       <div className="testimonial py-4 px-3">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipt earum debitits recusandae voluptate illum expedita 
-            corrupti aliquid doloribus delectus?
+         <p>Empresa de mucha confianza. Resolución inmediata a las sugerencias y un trato por demás agradable.
+            Indudablemente la recomendaría a mis conocidos.
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>John Doe</h6>
-               <p>Customer</p>
-            </div>
-         </div> 
-      </div>
-
-      <div className="testimonial py-4 px-3">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipt earum debitits recusandae voluptate illum expedita 
-            corrupti aliquid doloribus delectus?
-         </p>
-
-         <div className='d-flex align-items-center gap-4 mt-3'>
-            <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
-            <div>
-               <h6 className='mb-0 mt-3'>John Doe</h6>
+               <h6 className='mb-0 mt-3'>Enrique C</h6>
                <p>Customer</p>
             </div>
          </div> 

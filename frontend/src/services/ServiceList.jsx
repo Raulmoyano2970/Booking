@@ -8,18 +8,18 @@ import customizationImg from '../assets/images/customization.png'
 const servicesData = [
    {
       imgUrl: weatherImg,
-      title: `Calculate Weather`,
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      title: `Mendoza`,
+      desc: `La combinacion perfecta de hermosos paisajes y una buena copa de vino.`,
    },
    {
       imgUrl: guideImg,
-      title: `Best Tour Guide`,
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      title: `Argentina`,
+      desc: `Recorre desde el maravilloso norte argentino hasta la ciudad mas austral del mundo!.`,
    },
    {
       imgUrl: customizationImg,
-      title: 'Customization',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      title: 'Mundo',
+      desc: `Explora nuevos horizontes, el mundo te espera!.`,
    },
 ]
 
