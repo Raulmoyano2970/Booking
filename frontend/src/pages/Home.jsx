@@ -14,6 +14,7 @@ import FeaturedTourList from '../components/Featured-tours/FeaturedTourList'
 import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery'
 import Testimonials from '../components/Testimonial/Testimonials'
 import NewsLetter from '../shared/Newsletter'
+import CardHome from '../components/CardHome/CardHome'
 
 const Home = () => {
    return <>
@@ -60,11 +61,9 @@ const Home = () => {
       <section>
          <Container>
             <Row>
-               <Col lg='3'>
                   <h5 className="services__subtitle">Nuestros servicios</h5>
                   <h2 className="services__title">Descubrí nuestras ofertas en los mejores destinos.</h2>
-               </Col>
-               <ServiceList />
+               <CardHome/>
             </Row>
          </Container>
       </section>
