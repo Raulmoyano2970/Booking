@@ -5,13 +5,14 @@ import Logo from '../../assets/images/logo.png'
 import "./header.css"
 import { AuthContext } from '../../context/AuthContext'
 
+
 const nav__links = [
    {
       path: '/home',
       display: 'Home'
    },
    {
-      path: '/about',
+      path: '/About',
       display: 'About'
    },
    {
