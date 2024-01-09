@@ -12,8 +12,16 @@ const nav__links = [
       display: 'Home'
    },
    {
-      path: '/About',
-      display: 'About'
+      path: '/mendoza',
+      display: 'Mendoza'
+   },
+   {
+      path: '/argentina',
+      display: 'Argentina'
+   },
+   {
+      path: '/mundo',
+      display: 'Mundo'
    },
    {
       path: '/tours',

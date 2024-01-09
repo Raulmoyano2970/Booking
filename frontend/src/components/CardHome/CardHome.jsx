@@ -1,38 +1,88 @@
-// import './cardHome.css'
-// import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
-// import Nav from 'react-bootstrap/Nav';
+import './cardHome.css'
+import React, { useState } from 'react';
+import { Button,CardText, CardSubtitle, CardTitle,CardBody, CardImg, Card, CardGroup } from 'reactstrap';
 
-// const CardHome = () => {
-//   return (
-//     <Card>
-//       <Card.Header>
-//         <Nav variant="pills" defaultActiveKey="#first">
-//           <Nav.Item>
-//             <Nav.Link href="#first">Mendoza</Nav.Link>
-//           </Nav.Item>
-//           <Nav.Item>
-//             <Nav.Link href="#link">Argentina</Nav.Link>
-//           </Nav.Item>
-//           <Nav.Item>
-//             <Nav.Link className='link2' href="#link2">Mundo</Nav.Link>
-//           </Nav.Item>
-//         </Nav>
-//       </Card.Header>
-//       <Card.Body>
-//         <Card.Title>Special title treatment</Card.Title>
-//         <Card.Text>
-//         Luxury boutique hotel de una leyenda de la enología.
-//         Susana Balbo es la primera enóloga del país y tiene desde siempre una historia de amor con el mundo del vino. La atención por el detalle y la pasión por los productos de alta gama son una filosofía de trabajo y su modo de ver la vida. Susana y su hija, Ana, les abren las puertas de su mundo.
-//         Deleita tus sentidos siendo un invitado de Susana Balbo a su Winemaker 's House & Spa Suites.
-//         Todas las suites cuentan con aire acondicionado, calefacción, TV de pantalla plana, terraza privada y jardín. El baño está equipado con una bañera relajante y una bañera climatizada.
-//         Esta casa se encuentra a 26km del aeropuerto.
 
-//         </Card.Text>
-//         <Button variant="primary">Go somewhere</Button>
-//       </Card.Body>
-//     </Card>
-//   );
-// }
+const CardHome = () => {
+    return (
+        <CardGroup>
+            <Card>
+                <CardImg
+                    alt="Mendoza"
+                    src="https://cdn.pixabay.com/photo/2021/02/08/21/45/landscape-5996668_1280.jpg"
+                    top
+                    width="100%"
+                />
+                <CardBody>
+                    <CardTitle tag="h5">
+                    Entre vinos y montañas
+                    </CardTitle>
+                    <CardSubtitle
+                    className="mb-2 text-muted"
+                    tag="h6"
+                    >
+                    Mendoza
+                    </CardSubtitle>
+                    <CardText>
+                    La combinacion perfecta de hermosos paisajes y una buena copa de vino.
+                    </CardText>
+                    <Button>
+                    Ver mas
+                    </Button>
+                </CardBody>
+            </Card>
+            <Card>
+                <CardImg
+                    alt="Argentina"
+                    src="https://images.unsplash.com/photo-1612294037637-ec328d0e075e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    top
+                    width="100%"
+                />
+                <CardBody>
+                    <CardTitle tag="h5">
+                    Tour por Argentina
+                    </CardTitle>
+                    <CardSubtitle
+                    className="mb-2 text-muted"
+                    tag="h6"
+                    >
+                    Argentina
+                    </CardSubtitle>
+                    <CardText>
+                    'Recorre desde el maravilloso norte argentino hasta la ciudad mas austral del mundo.
+                    </CardText>
+                    <Button>
+                    Ver mas
+                    </Button>
+                </CardBody>
+            </Card>
+            <Card>
+                <CardImg
+                    alt="Internacional"
+                    src="https://images.freeimages.com/images/large-previews/321/punta-cana-1348130.jpg"
+                    top
+                    width="100%"
+                />
+                <CardBody>
+                    <CardTitle tag="h5">
+                    Darle la vuelta al mundo
+                    </CardTitle>
+                    <CardSubtitle
+                    className="mb-2 text-muted"
+                    tag="h6"
+                    >
+                    Internacional
+                    </CardSubtitle>
+                    <CardText>
+                    Explora nuevos horizontes, el mundo te espera!
+                    </CardText>
+                    <Button>
+                    Ver mas
+                    </Button>
+                </CardBody>
+            </Card>
+        </CardGroup>
+    )
+}
 
-// export default CardHome
+export default CardHome
