@@ -1,15 +1,14 @@
 import React from 'react'
 import '../styles/home.css'
 import { Container, Row, Col, CardSubtitle } from 'reactstrap'
-import heroImg from '../assets/images/hero-img01.jpg'
-import heroImg02 from '../assets/images/hero-img02.jpg'
-import heroVideo from '../assets/images/hero-video.mp4'
+import heroImg from '../assets/images/bolson.jpg'
+import heroImg02 from '../assets/images/cordillera.jpg'
+import heroVideo from '../assets/images/puntacana.jpg'
 import worldImg from '../assets/images/world.png'
 import experienceImg from '../assets/images/experience.png'
 
 import Subtitle from './../shared/subtitle'
 import SearchBar from './../shared/SearchBar'
-import ServiceList from '../services/ServiceList'
 import FeaturedTourList from '../components/Featured-tours/FeaturedTourList'
 import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery'
 import Testimonials from '../components/Testimonial/Testimonials'
@@ -26,7 +25,7 @@ const Home = () => {
                   <div className="hero__content">
                      <div className="hero__subtitle d-flex align-items-center">
                         <Subtitle subtitle={'Mundo'} />
-                        <img src={worldImg} alt="" />
+                        {/* <img src={worldImg} alt="" /> */}
                      </div>
                      <h1>Embarcate en aventuras increibles junto a  <span className='hightlight'> Tokio viajes</span></h1>
                      <p>
@@ -42,7 +41,7 @@ const Home = () => {
                </Col>
                <Col lg='2'>
                   <div className="hero__img-box hero__video-box mt-4">
-                     <video src={heroVideo} alt="" controls />
+                     <img src={heroVideo} alt="" controls />
                   </div>
                </Col>
                <Col lg='2'>
