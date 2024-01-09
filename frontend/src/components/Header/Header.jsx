@@ -19,10 +19,10 @@ const nav__links = [
       path: '/argentina',
       display: 'Argentina'
    },
-   {
-      path: '/mundo',
-      display: 'Mundo'
-   },
+   // {
+   //    path: '/mundo',
+   //    display: 'Mundo'
+   // },
    {
       path: '/tours',
       display: 'Tours'

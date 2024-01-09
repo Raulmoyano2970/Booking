@@ -1,0 +1,21 @@
+/*Argentina*/
+.common__section3 {
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("../assets/images/ushuaia.jpeg") no-repeat center center;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    color: #ff7e01;
+  }
+
+  .containerArg{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 7rem 0rem 7rem ;
+  }
