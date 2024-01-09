@@ -4,7 +4,7 @@
    --heading-color     : #0b2727;
    --text-color        : #6e7074;
    --font-name         : "Montserrat", sans-serif;
-   --subtitle-font-name: "Island Moments", cursive;
+   --subtitle-font-name: "Montserrat";
 }
 
 .hero__subtitle img {
@@ -32,11 +32,19 @@
 
 .hero__img-box img,
 .hero__img-box video {
-   width        : 100%;
-   height       : 350px;
+   width        : 185px;
+   height       : 400px;
    border-radius: 20px;
    border       : 1px solid var(--secondary-color);
    object-fit   : cover;
+}
+
+.hero__img-box img:hover ,
+.hero__img-box video:hover {
+   -webkit-transform: scale(1);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    border: none;
 }
 
 .hero__content {
@@ -44,11 +52,11 @@
 }
 
 .hero__img-box {
-   padding-top: 2rem;
+   padding-top: 1rem;
 }
 
 .services__subtitle {
-   font-size  : 2rem;
+   font-size  : 1.5rem;
    font-weight: 500;
    color      : #ee6e6e;
    font-family: var(--subtitle-font-name);
