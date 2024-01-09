@@ -21,12 +21,12 @@ const quick__links = [
 
 const quick__links2 = [
    {
-      path: '/gallery',
-      display: 'Gallery'
+      path: '/argentina',
+      display: 'Argentina'
    },
    {
-      path: '/login',
-      display: 'Login'
+      path: '/mendoza',
+      display: 'Mendoza'
    },
    {
       path: '/register',
@@ -103,9 +103,9 @@ const Footer = () => {
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
                         <h6 className='mb-0 d-flex align-items-center gap-2'>
                            <span><i class='ri-map-pin-line'></i></span>
-                           Address:
+                           Dirección:
                         </h6>
-                        <p className='mb-0'>Lorem</p>
+                        <p className='mb-0'>VIAJES TK SAS</p>
                      </ListGroupItem>
 
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -114,7 +114,7 @@ const Footer = () => {
                            Email:
                         </h6>
 
-                        <p className='mb-0'>Lorem</p>
+                        <p className='mb-0'>noelia@tokioviajes.com</p>
                      </ListGroupItem>
 
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -123,7 +123,7 @@ const Footer = () => {
                            Phone:
                         </h6>
 
-                        <p className='mb-0'>Lorem</p>
+                        <p className='mb-0'>+54 9 261 641 6908</p>
                      </ListGroupItem>
                   </ListGroup>
                </Col>

@@ -113,33 +113,30 @@ ul {
 
 
 
-.aboutremid{
-  height: 50vh ;
-  background-color: aqua;
-  
+
+/*Mendoza*/
+.common__section2 {
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url("../src/assets/images/vino-mendoza.jpg") no-repeat center center;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
   color: #ff7e01;
 
 }
-
-
-.common__section2 {
-  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-  url("../src/assets//images/gallery-03.jpg") no-repeat center center;
-  height: 400px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-}
-
+/*Argentina*/
 .common__section3 {
   background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-  url("../src/assets//images/tour-img06.jpg") no-repeat center center;
+  url("../src/assets/images/ushuaia.jpeg") no-repeat center center;
   height: 400px;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   background-size: cover;
+  color: #ff7e01;
 }
+

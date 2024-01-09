@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'reactstrap'
+import wave from "../assets/images/wave.svg"
 
 const Mendoza = ({ title }) => {
   return (
