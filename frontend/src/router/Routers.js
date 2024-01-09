@@ -8,6 +8,8 @@ import SearchResultList from './../pages/SearchResultList'
 import TourDetails from './../pages/TourDetails'
 import Tours from './../pages/Tours'
 import About from '../pages/About'
+import Argentina from '../pages/Argentina'
+import Mendoza from '../pages/Mendoza'
 
 const Routers = () => {
    return (
@@ -16,6 +18,8 @@ const Routers = () => {
          <Route path='/home' element={<Home/>} />
          <Route path='/tours' element={<Tours/>} />
          <Route path='/about' element={<About/>} />
+         <Route path='/mendoza' element={<Mendoza/>} />
+         <Route path='/argentina' element={<Argentina/>} />
          <Route path='/tours/:id' element={<TourDetails/>} />
          <Route path='/login' element={<Login/>} />
          <Route path='/register' element={<Register/>} />
