@@ -12,9 +12,9 @@ const TourCard = ({ tour }) => {
 
    return (
       <div className='tour__card'>
-         <Card>
+         <Card className='cardTour'>
             <div className="tour__img">
-               <img src={photo} alt="tour-img" />
+               <a href={`/tours/${_id}`}><img src={photo} alt="tour-img"/></a>
                {featured && <span>Featured</span>}
             </div>
 

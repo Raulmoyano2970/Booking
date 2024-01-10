@@ -15,7 +15,7 @@ const FeaturedTourList = () => {
          { error && <h4>{error}</h4> }
          {
             !loading && !error &&
-            featuredTours?.map(tour => (
+            featuredTours.slice(0, 4)?.map(tour => (
                <Col lg='3' md='4' sm='6' className='mb-4' key={tour._id}>
                   <TourCard tour={tour} />
                </Col>

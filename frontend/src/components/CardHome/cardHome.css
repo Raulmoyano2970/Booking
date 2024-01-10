@@ -4,35 +4,42 @@ section{
     justify-content: center;
 }
 
-.card{
+.cardItem{
     margin: 8px;
-    border-radius: 15px  !important;
+    border-radius: 8px !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 22px 50px 10px;
+    border: none !important;
+    scale: 0.95;
+    margin-bottom: -20px;
 }
 
-.card:hover{
+.cardItem:hover{
     -webkit-transform: scale(1);
-    transform: scale(1.08);
-    transition-duration: 0.25s;
+    transform: scale(1.1);
+    box-shadow: rgb(0, 0, 0) 0px 18px 50px -10px;
+    z-index: 1;
+    transition-duration: 0.7s;
 }
 
 .card-img{
     min-height: 250px;
     object-fit: cover;
-    border-radius: 5px !important;
-}
-
-.card-img:hover{
-    filter: opacity(0.8);
+    border-radius: 8px 8px 0 0 !important;
 }
 
 .btn.btn-secondary{
-    background-color: orange;
+    padding         : 0.6rem;
+    transition      : 0.5s;
+    cursor          : pointer;
+    border          : none;
+    border-radius   : 14px 0 14px 0;
+    font-style      : italic;
+    background-color: #faa935 !important;
     color: black;
-    border: none;
-}
+    }
 
 .btn.btn-secondary:hover{
-    background-color: orange;
+    background-color: #faa935;
     color: white;
     scale: 1.1;
 }

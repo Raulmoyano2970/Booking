@@ -6,11 +6,13 @@ import { Button,CardText, CardSubtitle, CardTitle,CardBody, CardImg, Card, CardG
 const CardHome = () => {
     return (
         <section>
-                <Card style={{width: '22rem'}}>
-                    <CardImg
-                        alt="Mendoza"
-                        src="https://cdn.pixabay.com/photo/2021/02/08/21/45/landscape-5996668_1280.jpg"
-                    />
+                <Card style={{width: '22rem'}} className='cardItem'>
+                    <a href="/mendoza">
+                        <CardImg
+                            alt="Mendoza"
+                            src="https://cdn.pixabay.com/photo/2021/02/08/21/45/landscape-5996668_1280.jpg"
+                        />
+                    </a>
                     <CardBody>
                         <CardTitle tag="h5">
                         Entre vinos y montañas
@@ -31,11 +33,13 @@ const CardHome = () => {
                         </form>
                     </CardBody>
                 </Card>
-                <Card style={{width: '22rem'}}>
-                    <CardImg
-                        alt="Argentina"
-                        src="https://images.unsplash.com/photo-1612294037637-ec328d0e075e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    />
+                <Card style={{width: '22rem'}} className='cardItem'>
+                    <a href="/argentina">
+                        <CardImg
+                            alt="Argentina"
+                            src="https://images.unsplash.com/photo-1612294037637-ec328d0e075e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        />
+                    </a>
                     <CardBody>
                         <CardTitle tag="h5">
                         Tour por Argentina
@@ -56,11 +60,13 @@ const CardHome = () => {
                         </form>
                     </CardBody>
                 </Card>
-                <Card style={{width: '22rem'}}>
-                    <CardImg
-                        alt="Internacional"
-                        src="https://images.freeimages.com/images/large-previews/321/punta-cana-1348130.jpg"
-                    />
+                <Card style={{width: '22rem'}} className='cardItem'>
+                    <a href="">
+                        <CardImg
+                            alt="Internacional"
+                            src="https://images.freeimages.com/images/large-previews/321/punta-cana-1348130.jpg"
+                        />
+                    </a>
                     <CardBody>
                         <CardTitle tag="h5">
                         Darle la vuelta al mundo

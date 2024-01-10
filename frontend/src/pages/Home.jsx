@@ -14,7 +14,6 @@ import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGalle
 import Testimonials from '../components/Testimonial/Testimonials'
 import NewsLetter from '../shared/Newsletter'
 import CardHome from '../components/CardHome/CardHome'
-import TourCardHome from '../components/TourCardHome/TourCardHome'
 
 const Home = () => {
    return <>
@@ -76,7 +75,7 @@ const Home = () => {
                   <Subtitle subtitle={'Explora'} />
                   <h2 className='featured__tour-title'>Nuestros tours destacados</h2>
                </Col>
-               {/* <TourCardHome/> */}
+               <FeaturedTourList/>
             </Row>
          </Container>
       </section>
