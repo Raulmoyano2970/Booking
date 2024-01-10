@@ -26,15 +26,21 @@
    color          : var(--heading-color);
    font-weight    : 500;
    font-size      : 1.5rem;
-   margin-right: 5rem;
+   margin-right: 25px;
 }
 
 .nav__item a:hover {
-   color: inherit;
+   color: #f89202;
+   /* box-shadow: rgba(0, 0, 0, 0.2) 5px 22px 50px 10px; */
+   transition-duration: 0.5s;
 }
 
 .nav__item a.active__link {
    color: var(--secondary-color);
+}
+
+.nav__btns{
+   margin-left: 35px;
 }
 
 .mobile__menu {
