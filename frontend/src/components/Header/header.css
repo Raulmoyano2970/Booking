@@ -14,7 +14,12 @@
 }
 
 .logo img {
-   width: 20%;
+   width: 30%;
+}
+
+.logo img:hover {
+   scale: 1.1;
+   transition-duration: 0.7s;
 }
 
 .menu {
@@ -26,11 +31,11 @@
    color          : var(--heading-color);
    font-weight    : 500;
    font-size      : 1.5rem;
-   margin-right: 25px;
+   margin-right: 10px;
 }
 
 .nav__item a:hover {
-   color: #f89202;
+   color: var(--secondary-color);
    /* box-shadow: rgba(0, 0, 0, 0.2) 5px 22px 50px 10px; */
    transition-duration: 0.5s;
 }
@@ -40,7 +45,7 @@
 }
 
 .nav__btns{
-   margin-left: 35px;
+   margin-left: 50px;
 }
 
 .mobile__menu {
