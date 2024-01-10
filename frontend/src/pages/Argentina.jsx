@@ -7,13 +7,7 @@ const Argentina = ({ title }) => {
   return (
    <>
       <section className="common__section3">
-          <Container>
-            <Row>
-                <Col lg='12'>
                   <h1>Argentina</h1>
-                </Col>
-            </Row>
-          </Container>
       </section>
       <div className="containerArg">
         <h2>Conocé el país campeón del mundo</h2>
@@ -101,8 +95,8 @@ const Argentina = ({ title }) => {
             </Button>
           </CardBody>
         </Card>
-        <NewsLetter/>
       </div>
+      <NewsLetter/>
     </>
   )
 }
