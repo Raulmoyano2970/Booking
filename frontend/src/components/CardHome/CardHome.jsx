@@ -24,9 +24,11 @@ const CardHome = () => {
                         <CardText>
                         La combinacion perfecta de hermosos paisajes y una buena copa de vino.
                         </CardText>
-                        <Button>
-                        Ver mas
-                        </Button>
+                        <form method='get' action='/mendoza'>
+                            <Button type='submit'>
+                            Ver mas
+                            </Button>
+                        </form>
                     </CardBody>
                 </Card>
                 <Card style={{width: '22rem'}}>
@@ -47,9 +49,11 @@ const CardHome = () => {
                         <CardText>
                         Recorre desde el maravilloso norte argentino hasta la ciudad mas austral del mundo.
                         </CardText>
-                        <Button>
-                        Ver mas
-                        </Button>
+                        <form method='get' action='/argentina'>
+                            <Button type='submit'>
+                            Ver mas
+                            </Button>
+                        </form>
                     </CardBody>
                 </Card>
                 <Card style={{width: '22rem'}}>
@@ -70,9 +74,11 @@ const CardHome = () => {
                         <CardText>
                         Explora nuevos horizontes, el mundo te espera!
                         </CardText>
-                        <Button>
-                        Ver mas
-                        </Button>
+                        <form method='get' action='/tours'>
+                            <Button type='submit'>
+                            Ver mas
+                            </Button>
+                        </form>
                     </CardBody>
                 </Card>
         </section>
