@@ -1,11 +1,7 @@
-.card-group{
-    padding-top: 10px;
+section{
     display: flex;
-    flex-flow: row wrap;
-    align-items: normal ;
     flex-wrap: wrap;
-    flex-direction: row;
-    /* overflow: hidden; */
+    justify-content: center;
 }
 
 .card{
@@ -19,13 +15,13 @@
     transition-duration: 0.25s;
 }
 
-.card-img-top{
+.card-img{
     min-height: 250px;
     object-fit: cover;
     border-radius: 5px !important;
 }
 
-.card-img-top:hover{
+.card-img:hover{
     filter: opacity(0.8);
 }
 
@@ -40,3 +36,9 @@
     color: white;
     scale: 1.1;
 }
+
+/* @media (min-width: 955px){
+    .card-group {
+        flex-direction: column;
+        }
+    } */
