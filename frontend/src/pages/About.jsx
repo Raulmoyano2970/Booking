@@ -1,8 +1,12 @@
 import React from "react";
 import NewsLetter from "../shared/Newsletter";
+import "../styles/about.css"
 
 const About = () => {
     return <>
+     <section className="common__section4">
+                  <h1>Mendoza</h1>
+      </section>
     <section>
       <h1>¿Quienes Somos?</h1>
       <p>
@@ -30,9 +34,7 @@ const About = () => {
 
       Defensa de las y los consumidores. Para reclamos ingrese aquí (link: https://autogestion.produccion.gob.ar/consumidores) </p>
     </section>
-    <section>
-      <NewsLetter/>
-    </section>
+    <NewsLetter/>
     </>;
 };
 
