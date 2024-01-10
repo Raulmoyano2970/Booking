@@ -3,7 +3,7 @@ import '../styles/home.css'
 import { Container, Row, Col, CardSubtitle } from 'reactstrap'
 import heroImg from '../assets/images/bolson.jpg'
 import heroImg02 from '../assets/images/cordillera.jpg'
-import heroVideo from '../assets/images/puntacana.jpg'
+import heroVideo from '../assets/images/review.mp4'
 import worldImg from '../assets/images/world.png'
 import experienceImg from '../assets/images/experience.png'
 
@@ -36,12 +36,12 @@ const Home = () => {
 
                <Col lg='2'>
                   <div className="hero__img-box">
-                     <img src={heroImg} alt="" />
+                     <img src={heroImg} alt=""/>
                   </div>
                </Col>
                <Col lg='2'>
                   <div className="hero__img-box hero__video-box mt-4">
-                     <img src={heroVideo} alt="" controls />
+                     <video src={heroVideo} alt="" controls muted autoPlay loop/>
                   </div>
                </Col>
                <Col lg='2'>
