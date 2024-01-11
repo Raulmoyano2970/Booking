@@ -78,6 +78,8 @@
 
 .user__reviews {
    margin-top: 2.5rem;
+   display: flex !important;
+   align-items: flex-start !important;
 }
 
 .review__item {
