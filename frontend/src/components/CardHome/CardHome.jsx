@@ -1,11 +1,18 @@
 import './cardHome.css'
 import React, { useState } from 'react';
 import { Button,CardText, CardSubtitle, CardTitle,CardBody, CardImg, Card, CardGroup } from 'reactstrap';
+import {motion} from "framer-motion"
+import { fadeIn } from '../Variant/variants';
 
 
 const CardHome = () => {
     return (
-        <section>
+        <motion.section
+        variants={fadeIn("left", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.3
+        }}>
                 <Card style={{width: '22rem'}} className='cardItem'>
                     <a href="/mendoza">
                         <CardImg
@@ -87,7 +94,7 @@ const CardHome = () => {
                         </form>
                     </CardBody>
                 </Card>
-        </section>
+        </motion.section>
     )
 }
 

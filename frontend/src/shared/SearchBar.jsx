@@ -3,6 +3,8 @@ import './search-bar.css'
 import { Col, Form, FormGroup } from 'reactstrap'
 import { BASE_URL } from '../utils/config'
 import { useNavigate } from 'react-router-dom'
+import {motion} from "framer-motion"
+import { fadeIn } from '../components/Variant/variants'
 
 const SearchBar = () => {
    const locationRef = useRef('')
@@ -29,7 +31,13 @@ const SearchBar = () => {
    }
 
    return <Col lg="12">
-      <div className="search__bar">
+      <motion.div
+        variants={fadeIn("right", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.3
+        }}
+      className="search__bar">
          <Form className='d-flex align-items-center gap-4'>
             <FormGroup className='d-flex gap-3 form__group form__group-fast'>
                <span><i class='ri-map-pin-line'></i></span>
@@ -57,7 +65,7 @@ const SearchBar = () => {
                <i class='ri-search-line'></i>
             </span>
          </Form>
-      </div>
+      </motion.div>
    </Col>
 }
 

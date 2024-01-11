@@ -64,6 +64,7 @@ const TourDetails = () => {
    }, [tour])
 
    return (
+      <>
       <section>
          <Container>
             {loading && <h4 className='text-center pt-5'>LOADING.........</h4>}
@@ -152,8 +153,9 @@ const TourDetails = () => {
                </Row>
             }
          </Container>
-         <Newsletter />
       </section>
+         <Newsletter />
+         </>
 
    )
 }

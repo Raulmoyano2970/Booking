@@ -14,6 +14,10 @@ import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGalle
 import Testimonials from '../components/Testimonial/Testimonials'
 import NewsLetter from '../shared/Newsletter'
 import CardHome from '../components/CardHome/CardHome'
+//motion
+import {motion} from "framer-motion"
+//variants
+import {fadeIn} from "../components/Variant/variants"
 
 const Home = () => {
    return <>
@@ -22,7 +26,12 @@ const Home = () => {
          <Container>
             <Row>
                <Col lg='6'>
-                  <div className="hero__content">
+                  <motion.div
+            variants={fadeIn("down", 0.5)} 
+            initial="hidden" 
+            whileInView={"show"} 
+            viewport={{once: false, amount: 0.7}}  
+                  className="hero__content">
                      <div className="hero__subtitle d-flex align-items-center">
                         <Subtitle subtitle={'Mundo'} />
                         {/* <img src={worldImg} alt="" /> */}
@@ -31,23 +40,38 @@ const Home = () => {
                      <p>
                      ¡Tu viaje soñado los espera, nosotros te ayudamos, comenzá una nueva historia inolvidable! Es el momento de arrancar esta increíble travesía.
                      </p>
-                  </div>
+                  </motion.div>
                </Col>
 
                <Col lg='2'>
-                  <div className="hero__img-box">
+                  <motion.div 
+                     variants={fadeIn("up", 0.3)} 
+                     initial="hidden" 
+                     whileInView={"show"} 
+                     viewport={{once: false, amount: 0.7}} 
+                  className="hero__img-box">
                      <img src={heroImg} alt=""/>
-                  </div>
+                  </motion.div>
                </Col>
                <Col lg='2'>
-                  <div className="hero__img-box hero__video-box mt-4">
+                  <motion.div
+                     variants={fadeIn("down", 0.3)} 
+                     initial="hidden" 
+                     whileInView={"show"} 
+                     viewport={{once: false, amount: 0.7}} 
+                      className="hero__img-box hero__video-box mt-4">
                      <video src={heroVideo} alt="" controls muted autoPlay loop/>
-                  </div>
+                  </motion.div>
                </Col>
                <Col lg='2'>
-                  <div className="hero__img-box mt-5">
+                  <motion.div 
+                     variants={fadeIn("up", 0.3)} 
+                     initial="hidden" 
+                     whileInView={"show"} 
+                     viewport={{once: false, amount: 0.7}} 
+                  className="hero__img-box mt-5">
                      <img src={heroImg02} alt="" />
-                  </div>
+                  </motion.div>
                </Col>
 
                <SearchBar />
@@ -60,8 +84,16 @@ const Home = () => {
       <section>
          <Container>
             <Row>
+               <motion.div
+               variants={fadeIn("right", 0.3)}
+               initial="hidden"
+               whileInView={"show"}
+               viewport={{once: false, amount: 0.3
+               }}
+               >
                   <h5 className="services__subtitle">Nuestros servicios</h5>
                   <h2 className="services__title">Descubrí nuestras ofertas en los mejores destinos.</h2>
+                  </motion.div>
                <CardHome/>
             </Row>
          </Container>
@@ -72,9 +104,18 @@ const Home = () => {
          <Container>
             <Row>
                <Col lg='12' className='mb-5'>
+                  <motion.div
+                      variants={fadeIn("right", 0.3)}
+                      initial="hidden"
+                      whileInView={"show"}
+                      viewport={{once: false, amount: 0.3
+                      }}
+                  >
                   <Subtitle subtitle={'Explora'} />
                   <h2 className='featured__tour-title'>Nuestros tours destacados</h2>
+                  </motion.div>
                </Col>
+               
                <FeaturedTourList/>
             </Row>
          </Container>
@@ -86,14 +127,26 @@ const Home = () => {
          <Container>
             <Row>
                <Col lg='6'>
-                  <div className="experience__content">
+                  <motion.div
+                     variants={fadeIn("right", 0.3)}
+                     initial="hidden"
+                     whileInView={"show"}
+                     viewport={{once: false, amount: 0.3
+                     }}
+                  className="experience__content">
                      <Subtitle subtitle={'Experiencia'} />
                      <h2>Trabajamos para ti</h2>
                      <p>Nos esforzamos para crear un diferencia y 
                         <br /> llevar la comodidad hacia donde vayas. </p>
-                  </div>
+                  </motion.div>
 
-                  <div className="counter__wrapper d-flex align-items-center gap-5">
+                  <motion.div
+                     variants={fadeIn("up", 0.3)}
+                     initial="hidden"
+                     whileInView={"show"}
+                     viewport={{once: false, amount: 0.3
+                     }}
+                  className="counter__wrapper d-flex align-items-center gap-5">
                      <div className="counter__box">
                         <span>+12k</span>
                         <h6>Viajes exitosos</h6>
@@ -106,12 +159,18 @@ const Home = () => {
                         <span>+5</span>
                         <h6>Años de experiencia</h6>
                      </div>
-                  </div>
+                  </motion.div>
                </Col>
                <Col lg='6'>
-                  <div className="experience__img">
+                  <motion.div
+                     variants={fadeIn("left", 0.3)}
+                     initial="hidden"
+                     whileInView={"show"}
+                     viewport={{once: false, amount: 0.3
+                     }}
+                  className="experience__img">
                      <img src={experienceImg} alt="" />
-                  </div>
+                  </motion.div>
                </Col>
             </Row>
          </Container>
@@ -123,11 +182,27 @@ const Home = () => {
          <Container>
             <Row>
                <Col lg='12'>
+                  <motion.div
+                     variants={fadeIn("right", 0.3)}
+                     initial="hidden"
+                     whileInView={"show"}
+                     viewport={{once: false, amount: 0.3
+                     }}
+                  >
                   <Subtitle subtitle={'Galeria'} />
                   <h2 className="gallery__title">Visita nuestra galeria de imagenes</h2>
+                  </motion.div>
                </Col>
                <Col lg='12'>
+                  <motion.div
+                        variants={fadeIn("left", 0.3)}
+                        initial="hidden"
+                        whileInView={"show"}
+                        viewport={{once: false, amount: 0.3
+                        }}
+                  >
                   <MasonryImagesGallery />
+                  </motion.div>
                </Col>
             </Row>
          </Container>
@@ -139,11 +214,27 @@ const Home = () => {
          <Container>
             <Row>
                <Col lg='12'>
+                  <motion.div
+                      variants={fadeIn("up", 0.3)}
+                      initial="hidden"
+                      whileInView={"show"}
+                      viewport={{once: false, amount: 0.3
+                      }}
+                  >
                   <Subtitle subtitle={'Reseñas'} />
                   <h2 className="testimonial__title">Que opinan nuestros clientes sobre nosotros</h2>
+                  </motion.div>
                </Col>
                <Col lg='12'>
+                  <motion.div
+                    variants={fadeIn("left", 0.3)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{once: false, amount: 0.3
+                    }}
+                  >
                   <Testimonials />
+                  </motion.div>
                </Col>
             </Row>
          </Container>
