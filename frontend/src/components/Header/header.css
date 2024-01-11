@@ -66,6 +66,26 @@
    z-index    : 999;
 }
 
+.botonSesion{
+   width: 8rem;
+   font-weight: 300 !important;
+   height: 2rem !important;
+   padding-bottom: 2rem !important;
+}
+
+.botonCrearCuenta{
+   width: 11rem;
+   font-weight: 300 !important;
+   border-radius: 10px 0px 10px 0px !important;
+}
+
+.botonCerrarSesion{
+   width: 10rem;
+   font-weight: 300 !important;
+   color: #000000 !important;
+   border-radius: 10px 0px 10px 0px !important;
+}
+
 /* =============== RESPONSIVE ================ */
 @media only screen and (max-width:992px) {
    .logo img {

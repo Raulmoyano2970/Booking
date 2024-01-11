@@ -67,7 +67,7 @@ const TourDetails = () => {
       <>
       <section>
          <Container>
-            {loading && <h4 className='text-center pt-5'>LOADING.........</h4>}
+            {loading && <h4 className='text-center pt-5'>Cargando.........</h4>}
             {error && <h4 className='text-center pt-5'>{error}</h4>}
             {
                !loading && !error &&
@@ -89,17 +89,17 @@ const TourDetails = () => {
 
                            <div className="tour__extra-details">
                               <span><i class='ri-map-pin-2-line'></i> {city}</span>
-                              <span><i class='ri-money-dollar-circle-line'></i> {price}/ per person</span>
+                              <span><i class='ri-money-dollar-circle-line'></i> {price}/ por persona</span>
                               <span><i class='ri-map-pin-time-line'></i> {distance} k/m</span>
-                              <span><i class='ri-group-line'></i> {maxGroupSize} people</span>
+                              <span><i class='ri-group-line'></i> {maxGroupSize} personas</span>
                            </div>
-                           <h5>Description</h5>
+                           <h5>Descripcion</h5>
                            <p>{desc}</p>
                         </div>
 
                         {/* ============ TOUR REVIEWS SECTION START ============ */}
                         <div className="tour__reviews mt-4">
-                           <h4>Reviews ({reviews?.length} reviews)</h4>
+                           <h4>Reseñas ({reviews?.length} reseñas)</h4>
 
                            <Form onSubmit={submitHandler}>
                               <div className="d-flex align-items-center gap-3 mb-4 rating__group">
@@ -111,9 +111,9 @@ const TourDetails = () => {
                               </div>
 
                               <div className="review__input">
-                                 <input type="text" ref={reviewMsgRef} placeholder='share your thoughts' required />
+                                 <input type="text" ref={reviewMsgRef} placeholder='Deja tu reseña' required />
                                  <button className='btn primary__btn text-white' type='submit'>
-                                    Submit
+                                    Enviar
                                  </button>
                               </div>
                            </Form>

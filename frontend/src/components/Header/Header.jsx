@@ -88,10 +88,10 @@ const Header = () => {
                      <div className="nav__btns d-flex align-items-center gap-2">
                         {
                            user ? <> <h5 className='mb-0'>Hola {user.username}!</h5>
-                                 <Button className='btn btn-dark' onClick={logout}>Logout</Button>
+                                 <Button className='btn btn-dark botonCerrarSesion' onClick={logout}>Cerrar sesion</Button>
                               </> : <>
-                                 <Button className='btn secondary__btn'><Link to='/login'>Login</Link></Button>
-                                 <Button className='btn primary__btn'><Link to='/register'>Register</Link></Button>
+                                 <Button className='btn secondary__btn botonSesion'><Link to='/login'>Iniciar sesion</Link></Button>
+                                 <Button className='btn primary__btn botonCrearCuenta'><Link to='/register'>Crear una cuenta</Link></Button>
                               </>
                         }
                         {/* <Button className='btn secondary__btn'><Link to='/login'>Login</Link></Button>
