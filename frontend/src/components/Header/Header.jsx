@@ -10,14 +10,14 @@ const nav__links = [
    //    path: '/home',
    //    display: 'Home'
    // },
-   {
-      path: '/mendoza',
-      display: 'Bodegas'
-   },
-   {
-      path: '/argentina',
-      display: 'Paisajes'
-   },
+   // {
+   //    path: '/mendoza',
+   //    display: 'Bodegas'
+   // },
+   // {
+   //    path: '/argentina',
+   //    display: 'Paisajes'
+   // },
    // {
    //    path: '/mundo',
    //    display: 'Mundo'

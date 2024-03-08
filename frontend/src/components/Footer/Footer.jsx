@@ -96,14 +96,14 @@ const Footer = () => {
                            <span><i class='ri-map-pin-line'></i></span>
                            Dirección:
                         </h6>
-                        <p className='mb-0'>VIAJES TK SAS</p>
+                        <p className='mb-0'>VIAJES TRAVEL SAS</p>
                      </ListGroupItem>
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
                         <h6 className='mb-0 d-flex align-items-center gap-2'>
                            <span><i class='ri-mail-line'></i></span>
                            Email:
                         </h6>
-                        <p className='mb-0'>noelia@tokioviajes.com</p>
+                        <p className='mb-0'>travelworld@travel.com</p>
                      </ListGroupItem>
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
                         <h6 className='mb-0 d-flex align-items-center gap-2'>
@@ -111,7 +111,7 @@ const Footer = () => {
                            Phone:
                         </h6>
 
-                        <p className='mb-0'>+54 9 261 641 6908</p>
+                        <p className='mb-0'>+54 9 261 4197280</p>
                      </ListGroupItem>
                   </ListGroup>
                </Col>
