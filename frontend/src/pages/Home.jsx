@@ -38,7 +38,7 @@ const Home = () => {
                      </div>
                      <h1>Embarcate en aventuras increibles junto a  <span className='hightlight'> Travel World</span></h1>
                      <p>
-                     ¡Tu viaje soñado los espera, nosotros te ayudamos, comenzá una nueva historia inolvidable! Es el momento de arrancar esta increíble travesía.
+                        ¡Tu viaje soñado te espera y nosotros estamos aquí para ayudarte a comenzar una nueva historia inolvidable! Es el momento de emprender esta increíble travesía.
                      </p>
                   </motion.div>
                </Col>
