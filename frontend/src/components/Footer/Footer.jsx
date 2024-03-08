@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
 import { Link } from 'react-router-dom'
-import logo from '../../assets/images/logotokio2.png'
+import logo from '../../assets/images/logo.png'
 
 const quick__links = [
    {
@@ -22,11 +22,11 @@ const quick__links = [
 const quick__links2 = [
    {
       path: '/argentina',
-      display: 'Argentina'
+      display: 'Paisajes'
    },
    {
       path: '/mendoza',
-      display: 'Mendoza'
+      display: 'Bodegas'
    },
    {
       path: '/register',

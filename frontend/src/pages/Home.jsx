@@ -36,7 +36,7 @@ const Home = () => {
                         <Subtitle subtitle={'Mundo'} />
                         {/* <img src={worldImg} alt="" /> */}
                      </div>
-                     <h1>Embarcate en aventuras increibles junto a  <span className='hightlight'> Tokio viajes</span></h1>
+                     <h1>Embarcate en aventuras increibles junto a  <span className='hightlight'> Travel World</span></h1>
                      <p>
                      ¡Tu viaje soñado los espera, nosotros te ayudamos, comenzá una nueva historia inolvidable! Es el momento de arrancar esta increíble travesía.
                      </p>

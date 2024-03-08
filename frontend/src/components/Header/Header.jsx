@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useContext } from 'react'
 import { Container, Row, Button } from 'reactstrap'
 import { NavLink, Link, useNavigate } from 'react-router-dom'
-import Logo from '../../assets/images/logotokio2.png'
+import Logo from '../../assets/images/logo.png'
 import "./header.css"
 import { AuthContext } from '../../context/AuthContext'
 
@@ -12,11 +12,11 @@ const nav__links = [
    // },
    {
       path: '/mendoza',
-      display: 'Mendoza'
+      display: 'Bodegas'
    },
    {
       path: '/argentina',
-      display: 'Argentina'
+      display: 'Paisajes'
    },
    // {
    //    path: '/mundo',
